@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="static/styles.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid bg-1 text-center">
+		<h1>Let's Become Ninjas!</h1>
+		<h4>Register Here</h4>
+		<form class="form-horicontal" action="/registration" method="POST">
+			<h1>Add a new user</h1>
+			<div class='form-group'>
+				<label class="control-label col-md-4 col-md-offset-4" for="first_name">First Name</label>
+				<input type="text" class="form-control" name="first_name">
+			</div>
+			<div class='form-group'>
+				<label class="control-label col-md-4 col-md-offset-4" for="last_name">Last Name</label>
+				<input type="text" class="form-control" name="last_name">
+			</div>
+			<div class='form-group'>
+				<label class="control-label col-md-4 col-md-offset-4" for="email">Email</label>
+				<input type="text" class="form-control" name="email">
+			</div>
+			<div class='form-group'>
+				<label class="control-label col-md-4 col-md-offset-4" for="password">Password</label>
+				<input type="password" class="form-control" name="password">
+			</div>
+			<div class='form-group'>
+				<label class="control-label col-md-4 col-md-offset-4">Confirm Password</label>
+				<input type="password" class="form-control" name="password_confirmation">
+			</div>
+			<div class='form-group'>
+				<label class="control-label col-md-4 col-md-offset-4">B-Day</label>
+				<input type="date" class="form-control" name="b_day" placeholder="Birthday">
+			</div>
+			<div class='form-group'>
+				<button type="submit" value="register">Sign Up</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

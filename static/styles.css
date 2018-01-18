@@ -1,0 +1,25 @@
+.bg-1{
+	background-image: url(https://openclipart.org/image/2400px/svg_to_png/245207/Female-Ninja-Silhouette.png);
+	/*background-color: #1abc9c;*/
+	/*border-image-width: 100%;*/
+	color: #FF3366;
+}
+.bg-2{
+	/*background-image: url(img/strawberrypenguins.jpg);*/
+	background-color: #474e5d;
+	border-image-width: 100%;
+	color: #FF3366;
+}
+.container-fluid{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+form{
+	/*vertical-align: center;*/
+	width: 500px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+a{
+	color: #FF3366;
+}
